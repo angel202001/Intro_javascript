@@ -3,6 +3,11 @@
 
     btnCambiarColor.addEventListener('click', () => {
         let color = inputColor.value;
+      
+
+     
+     
+
         
 
        cambiarColorFondo(color);
