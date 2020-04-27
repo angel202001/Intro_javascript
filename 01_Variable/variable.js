@@ -1,3 +1,5 @@
+"use extrict"
+
 //Declarar variables
 
 let nombre = "angel";

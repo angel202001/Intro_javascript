@@ -1,3 +1,5 @@
+"use extrict"
+
 let deuda = 1990;
 let ciudad = "santiago";
 let fechaNacimiento = "10/20/1900";

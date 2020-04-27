@@ -1,3 +1,5 @@
+"use extrict"
+
 // Texto = string
 let nombreCompleto= "angel";
 let apellido = 'vargas';

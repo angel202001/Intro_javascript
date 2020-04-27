@@ -1,3 +1,5 @@
+"use extrict"
+
 let precioDolar = 53.2;
 let conversionEnpeso = precioDolar * 100;
 
