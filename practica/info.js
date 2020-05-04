@@ -38,37 +38,21 @@ datos.Universidad = confirm("Digite si esta en la universidad Aceptar es = si / 
 
 // Datos de mi artista favorito
 
-let artistaFavorito = {
+let artistaFavorito = {};
 
-    nombre:"eminem",
-    otrosNombres:["Slim Shady","Marshal Mathers"],
-    edad:47,
-    canciones:["Lose Yourself","Not Afraid","Mockingbird","Stan"],
-    hijos:["Hailie Jade","Alaina Mathers","Whitney scott"],
-    logros:"Primer rapero en ganar un oscar",
-
-};
-
-/* Datos personales
-para imprimir en la consola */
-
-    let datosPersonales = {};
-
-    datosPersonales.nombreCompleto = "Angel Vargas";
-    datosPersonales.fechaNacimiento = "7 de mayo del 2001";
-    datosPersonales.paisMegustariaVisitar = "Estados Unidos";
+    artistaFavorito.Nombre = prompt("Escribe el nombre de tu artista favorito");
+    artistaFavorito.Edad = prompt("Cual es la edad de tu artista favorito?")
+    artistaFavorito.Canciones = prompt("Cuales son las cansiones de tu artista favorito?")
+    artistaFavorito.logro = prompt("Escribe algun logro de tu artista favorito");
 
 
+ /* Datos que van a salir en la
+ consola luego del usuario
+ escribir la informacion */
 
-    console.log(`Mi nombre completo es ${datosPersonales.nombreCompleto}`);
-    console.log(`Mi fecha de nacimiento es el ${datosPersonales.fechaNacimiento}`);
-    console.log(`Pais que quiero visitar ${datosPersonales.paisMegustariaVisitar}`);
-    console.log(`Informacion de mi artista favorito:
+    console.table(artistaFavorito);
+    console.log(datos.nombreCompleto);
+    console.log(datos.FechaNacimiento);
+    console.log(datos.PaisesVisitar);
+    console.log(datos.artistaFavorito);
 
-    Nombre: ${artistaFavorito.nombre}
-    otrosNombre: ${artistaFavorito.otrosNombres}
-    logros: ${artistaFavorito.logros}
-    canciones: ${artistaFavorito.canciones}
-    
-    
-    `);
