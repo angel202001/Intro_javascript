@@ -1,3 +1,5 @@
+"use extrict"
+
 let nombre = "jose";
 let edad = 50;
 let ciudad = "Stgo Rdguez";

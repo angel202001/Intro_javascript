@@ -1,7 +1,7 @@
 "use extrict"
 
 let precioDolar = 53.2;
-let conversionEnpeso = precioDolar * 100;
+let conversionEnPeso = precioDolar * 100;
 
 console.log(conversionEnpeso);
 
@@ -13,10 +13,10 @@ console.log("El precio actual del dolar es de " + precioDolar);
 
 
 const valorPI = 3.14;
-let tipoDeSngre = "A+B";
+let tipoDeSangre = "A+B";
 
-console.log("Resultado de analisi tipo de sangre " + tipoDeSngre);
+console.log("Resultado de analisis tipo de sangre " + tipoDeSangre);
 
-tipoDeSngre = "O-";
+tipoDeSangre = "O-";
 
-console.log("Resultado de analisi tipo de sangre " + tipoDeSngre);
+console.log("Resultado de analisis tipo de sangre " + tipoDeSangre);
