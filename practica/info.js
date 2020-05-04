@@ -1,6 +1,5 @@
 "use extrict"
 
-
 // Dias de la semana
 
  let diasSemana = [];
@@ -50,9 +49,15 @@ let artistaFavorito = {};
  consola luego del usuario
  escribir la informacion */
 
-    console.table(artistaFavorito);
-    console.log(datos.nombreCompleto);
-    console.log(datos.FechaNacimiento);
-    console.log(datos.PaisesVisitar);
-    console.log(datos.artistaFavorito);
+   
+    console.log(`Mi nombre es ${datos.nombreCompleto}`);
+    console.log(`Mi fecha de nacimiento es el ${datos.FechaNacimiento}`);
+    console.log(`Paises que me gustarian visitar son: ${datos.PaisesVisitar}`);
+    console.log(artistaFavorito);
+
+
+    
+
+
+
 
