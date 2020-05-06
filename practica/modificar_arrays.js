@@ -1,4 +1,5 @@
-"use extrict"
+"use extrict";
+
 /*
 let diasSemana = [
 

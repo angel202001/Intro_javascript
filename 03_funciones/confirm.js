@@ -1,4 +1,4 @@
-"use extrict"
+"use extrict";
 
 let usuario = {};
 

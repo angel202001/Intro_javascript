@@ -1,4 +1,4 @@
-"use extrict"
+"use extrict";
 
 let nombre = "jose";
 let edad = 50;
