@@ -34,6 +34,7 @@ document.addEventListener("click", function(){
 
 */
 
+/*
 let inputNumero1 = document.querySelector
 ("input#numero1");
 
@@ -60,3 +61,6 @@ btnCalcular.addEventListener("click", function(){
    alert(`la suma es igua a ${suma} `);
 
 });
+*/
+
+let parrafo1 = documen.querySelector(".")

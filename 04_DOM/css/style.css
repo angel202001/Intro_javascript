@@ -1,4 +1,4 @@
-h1.resaltado{
+/*h1.resaltado{
 
     background: aqua
 }
@@ -6,4 +6,10 @@ h1.resaltado{
 h1.color-red{
 
     color: red;
+}
+*/
+.col-md-3 p.lead{
+
+    color: blue
+    
 }
