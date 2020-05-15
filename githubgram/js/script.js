@@ -38,10 +38,10 @@ btnBuscar.addEventListener("click", function(){
 // 4. convertir la respuesta y procesarla
 
 
-
+// 1. Crear una funcion asincroma
 async function obtenerDatosGitHub() {
 
-    // 1. Crear una funcion asincroma
+    
     let valor = barraBuscar.value;
 
     // 2. Ejecutar una petición y esperar por la repuesta
