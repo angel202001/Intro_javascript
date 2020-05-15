@@ -12,18 +12,20 @@ const spanSiguiendo = document.querySelector("span.siguiendo");
 
 const parrafoBio = document.querySelector("p.bio");
 
-const btnBuscar = document.querySelector("button#buscar");
+const btnBuscar = document.querySelector("#buscar");
 
-const inputNombre = document.querySelector("input#nombre");
+const barraBuscar = document.querySelector("#barra_buscar");
 
-console.log(inputNombre);
+
 
 btnBuscar.addEventListener("click", function(){
 
-   obtenerDatosGitHub();
+    obtenerDatosGitHub();
+
+   
+
 
 });
-
 
 
 
@@ -36,26 +38,22 @@ btnBuscar.addEventListener("click", function(){
 // 4. convertir la respuesta y procesarla
 
 
-// 1. Crear una funcion asincroma
+
 async function obtenerDatosGitHub() {
 
-
-    // console.log("vamos a obtener los datos");
+    // 1. Crear una funcion asincroma
+    let valor = barraBuscar.value;
 
     // 2. Ejecutar una petición y esperar por la repuesta
-
-    let respuesta = await fetch("https://api.github.com/users/angel202001");
+    let respuesta = await fetch("https://api.github.com/users/"+valor);
 
 
 
     // 3. Verificar la respuesta y procesarla
-
     if (respuesta.ok){
 
 
         // 4. convertir la respuesta y procesarla
-
-
         let user = await respuesta.json();
 
         console.log(user);
