@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorail de un número entero
+    </title>
+</head>
+
+<body>
+
+    <input type="text" id="miDato" placeholder="Introduce el número del que quieres calcular el factorial">
+    <p>El resultado es: <span class="r">...</span></p>
+    <button id="monteserinEnviar">Calcular factorial</button>
+    
+    <script>
+        document.querySelector('#monteserinEnviar').addEventListener('click', () =>{
+            const dato = document.querySelector('#miDato').value;
+            let r = 1;
+            for(let i = dato; i>0; i--){
+                r *= i;
+            }
+            document.querySelector('.r').innerHTML = r;
+        })
+    
+    </script>
+
+</body>
+
+</html>
