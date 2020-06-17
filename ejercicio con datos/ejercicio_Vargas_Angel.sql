@@ -27,3 +27,6 @@
 12- SELECT titulo, tipo , total_ventas FROM titulos WHERE total_ventas BETWEEN '4000' AND '5000';
 
 13- SELECT total_ventas, tipo, precio FROM titulos WHERE total_ventas > 1000 AND precio < 10 AND (tipo = 'business' OR tipo = 'mod_cook');
+
+
+

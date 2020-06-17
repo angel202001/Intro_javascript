@@ -10,3 +10,4 @@ CREATE TABLE participantes(
     genero CHAR(1),-- M (masculino) o F (femenino)
     edad SMALLINT 
 );
+
